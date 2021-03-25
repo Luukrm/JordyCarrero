@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.herobanner {
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.discordapp.com/attachments/413089272141316101/824669363734970368/unknown.png");
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    text-decoration: underline 3px;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.single {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    margin-bottom: -1px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    width: 100vw;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #B78628, #FFDF91, #B78628);
+}
+
+.social-info {
+    color: black;
+    font-weight: 800;
+    font-size:	1.6vw;
+    margin: auto;
+}
+.fab {
+    margin-right: 6px;
+    vertical-align: middle;
+    color: black;
+}
