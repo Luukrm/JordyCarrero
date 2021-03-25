@@ -9,6 +9,16 @@ body {
     background-image: url("images/banner.png");
     height: 975px;
     width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .herobanner {
+        background-attachment: scroll;
+    }
 }
 
 .title {
