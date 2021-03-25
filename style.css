@@ -7,7 +7,7 @@ body {
 .herobanner {
     background-repeat: no-repeat;
     background-image: url("https://cdn.discordapp.com/attachments/413089272141316101/824669363734970368/unknown.png");
-    height: 100vh;
+    height: 1080px;
     width: 100vw;
 }
 
@@ -42,13 +42,37 @@ body {
 }
 
 .social-info {
-    color: black;
     font-weight: 800;
-    font-size:	1.6vw;
+    font-size: 1.3vw;
     margin: auto;
 }
+
 .fab {
     margin-right: 6px;
     vertical-align: middle;
-    color: black;
+    color: #212529;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.foto-container {
+    width: 41%;
+}
+
+.text {
+    margin-left: 1%;
+    width: 38%;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.single-title {
+    font-weight: 800;
+    font-size: 1.9vw;
+
 }
