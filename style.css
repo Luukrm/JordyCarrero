@@ -6,8 +6,8 @@ body {
 
 .herobanner {
     background-repeat: no-repeat;
-    background-image: url("https://cdn.discordapp.com/attachments/413089272141316101/824669363734970368/unknown.png");
-    height: 1080px;
+    background-image: url("images/banner.png");
+    height: 975px;
     width: 100vw;
 }
 
@@ -16,7 +16,7 @@ body {
     color: white;
     text-align: center;
     font-size: 5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .single {
@@ -43,14 +43,19 @@ body {
 
 .social-info {
     font-weight: 800;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     margin: auto;
+}
+
+@media only screen and (max-width: 620px) {
+    .social-info {
+        font-size: 0.7rem;
+    }
 }
 
 .fab {
     margin-right: 6px;
     vertical-align: middle;
-    color: #212529;
 }
 
 .container {
@@ -66,13 +71,23 @@ body {
 
 .text {
     margin-left: 1%;
-    width: 38%;
-    font-size: 1.2vw;
+    width: 50%;
+    font-size: 1.249vw;
     font-weight: 400;
+    text-align: justify;
 }
 
 .single-title {
     font-weight: 800;
     font-size: 1.9vw;
-
+    line-height: 19px;
+}
+.fa-youtube {
+    color: #FF0000;
+}
+.fa-instagram {
+    color: #C13584;
+}
+.fa-facebook {
+    color:#4267B2;
 }
