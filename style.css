@@ -4,9 +4,14 @@ body {
     overflow-x: hidden;
 }
 
+strong {
+    background-image: linear-gradient(90deg, #B78628, #FFDF91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .herobanner {
     background-repeat: no-repeat;
-    background-image: url("images/banner.png");
     height: 975px;
     width: 100vw;
     background-attachment: fixed;
@@ -14,31 +19,80 @@ body {
     background-size: cover;
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media (min-width: 1025px) {
+    .herobanner {
+        background-image: url("images/banner2.png");
+    }
+}
+
+@media (max-width: 1025px) {
+    .herobanner {
+        background-image: url("images/bannerphone.png");
+    }
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.17rem;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ffffff;
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.nav-link:hover:before, .nav-link:focus:before, .nav-link:active:before {
+    right: 0;
+}
+
 @media only screen and (max-device-width: 1366px) {
     .herobanner {
         background-attachment: scroll;
     }
 }
 
-.title {
-    text-decoration: underline 3px;
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: 3rem;
+.title-container {
+    max-width: 650px;
+    margin: 7.5% 12% 0 12%;
 }
 
-.single {
-    text-align: center;
+.title {
     color: white;
-    font-size: 1.8rem;
-    margin-top: 5rem;
-    margin-bottom: -1px;
+    font-size: 5rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.info {
+    color: #efefef;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .youtube {
     display: flex;
+    margin-left: 2%;
     justify-content: center;
 }
 
@@ -92,12 +146,15 @@ body {
     font-size: 1.9vw;
     line-height: 19px;
 }
+
 .fa-youtube {
     color: #FF0000;
 }
+
 .fa-instagram {
     color: #C13584;
 }
+
 .fa-facebook {
-    color:#4267B2;
+    color: #4267B2;
 }
