@@ -17,5 +17,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 5px;
+    margin: 5px 0 5px 0;
+}
+@media only screen and (max-device-width: 1366px) {
+    .video-container {
+        display: block;
+        text-align: center;
+    }
+    iframe {
+        width: 375px;
+    }
 }

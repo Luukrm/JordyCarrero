@@ -29,7 +29,7 @@
             <li><a href="links.html" class="nav-link px-2 link-light">Links</a></li>
         </ul>
         <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-light me-2">Contact</button>
+            <button type="button" class="btn btn-outline-warning me-2" onclick=contact()>Contact</button>
         </div>
     </header>
     <div class="title-container">
@@ -38,7 +38,7 @@
         <p class="info animate__animated animate__fadeInRight">Leuk dat je mijn website bezoekt! Ik hoop dat je hier
             alles kan vinden over mij. Zo niet? Neem dan gerust contact met mij op! Ik sta altijd open voor nieuwe
             kansen. 😉</p>
-        <button type="button" class="btn btn-outline-light me-2 animate__animated animate__fadeInUp">Contact</button>
+        <button type="button" class="btn btn-outline-warning me-2 animate__animated animate__fadeInUp">Contact</button>
     </div>
 </div>
 <div class="socials">
@@ -94,7 +94,8 @@
             class="fab fa-youtube"></i></a></div>
     <p class="footer-text">2021 JordyCarrero.nl | Alle rechten voorbehouden | Ontwerp & Realisatie <a class="footer-link" href="https://www.luremo.nl">Luremo.nl</a> </p>
 </footer>
-
+<script>function contact() {
+    location.href = "http://localhost/jordy/contact.php";
+}</script>
 </body>
-<script>history.scrollRestoration = "manual"</script>
 </html>

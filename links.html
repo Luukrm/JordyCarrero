@@ -29,7 +29,7 @@
         <li><a href="#" class="nav-link px-2 link-light">Links</a></li>
     </ul>
     <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-light me-2">Contact</button>
+        <button type="button" class="btn btn-outline-warning me-2" onclick=contact()>Contact</button>
     </div>
 </header>
 <div class="d-grid gap-2">
@@ -71,26 +71,8 @@
             </div>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img src="images/kringloopzoetermeer.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Kringloop Zoetermeer</h5>
-            <div class="d-grid gap-2">
-                <a href="https://www.kringloop-zoetermeer.nl/" class="btn btn-warning">Website</a>
-            </div>
-        </div>
-    </div>
 </div>
 <div class="card-container">
-    <div class="card" style="width: 18rem;">
-        <img src="images/quiznix.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">quiznix-dordrecht</h5>
-            <div class="d-grid gap-2">
-                <a href="https://quiznix-dordrecht.jouwweb.nl/" class="btn btn-warning">Website</a>
-            </div>
-        </div>
-    </div>
     <div class="card" style="width: 18rem;">
         <img src="images/bijberry.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -120,15 +102,7 @@
     </div>
 </div>
 <div class="card-container">
-    <div class="card" style="width: 18rem;">
-        <img src="images/smd.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">SMD Dakwerken</h5>
-            <div class="d-grid gap-2">
-                <a href="#" class="btn btn-warning">Website</a>
-            </div>
-        </div>
-    </div>
+
     <div class="card" style="width: 18rem;">
         <img src="images/denhenk.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -153,12 +127,43 @@
             </div>
         </div>
     </div>
+</div>
+<div class="card-container">
     <div class="card" style="width: 18rem;">
         <img src="images/bemmel.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Sportclub Bemmel</h5>
             <div class="d-grid gap-2">
                 <a href="https://www.sportclubbemmel.nl/" class="btn btn-warning">Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="images/quiznix.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">quiznix-dordrecht</h5>
+            <div class="d-grid gap-2">
+                <a href="https://quiznix-dordrecht.jouwweb.nl/" class="btn btn-warning">Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="images/smd.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">SMD Dakwerken</h5>
+            <div class="d-grid gap-2">
+                <a href="#" class="btn btn-warning">Website</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card-container">
+    <div class="card" style="width: 18rem;">
+        <img src="images/kringloopzoetermeer.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Kringloop Zoetermeer</h5>
+            <div class="d-grid gap-2">
+                <a href="https://www.kringloop-zoetermeer.nl/" class="btn btn-warning">Website</a>
             </div>
         </div>
     </div>
@@ -173,5 +178,8 @@
     <p class="footer-text">2021 JordyCarrero.nl | Alle rechten voorbehouden | Ontwerp & Realisatie <a
             class="footer-link" href="https://www.luremo.nl">Luremo.nl</a></p>
 </footer>
+<script>function contact() {
+    location.href = "http://localhost/jordy/contact.php";
+}</script>
 </body>
 </html>
