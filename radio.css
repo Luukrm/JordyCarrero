@@ -1,0 +1,28 @@
+.radio-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.75rem;
+    background-image: linear-gradient(120deg, #B78628, #FFDF91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header {
+    background-color: #161616;
+}
+.button-container {
+    justify-content: center;
+    padding: 0 6% 0 3%;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+.container-info {
+    width: 55%;
+    margin: auto;
+}

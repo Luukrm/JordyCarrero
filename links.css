@@ -10,11 +10,12 @@ header {
 }
 .card-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .card {
-    margin-top: 15px;
+    margin: 15px 2% 0 2%;
+
 }
 .card-img-top {
     height: 150px;
